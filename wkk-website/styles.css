@@ -1,0 +1,63 @@
+/* Reset & box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Body & global text */
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #fffaf5;
+}
+
+/* Header */
+header {
+  background: #c79a6d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+header nav ul li {
+  display: inline;
+  margin: 0 12px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+h2 {
+  color: #5a4635;
+}
+
+/* Perfume product cards */
+.card {
+  background: #fff3e6;
+  border: 2px solid #e6ccb2;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+  background: #5a4635;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
